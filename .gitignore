@@ -1,0 +1,12 @@
+*.h5
+*.h5ad
+*.tar
+*.tar.gz
+checkpoint/
+code/visulization/
+code/example/TENX92.h5
+*.log
+*.h5ad
+*.pth
+*.npy
+nohup.out
