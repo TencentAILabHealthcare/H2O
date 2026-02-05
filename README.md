@@ -2,10 +2,9 @@
 
 This is the official codebase for **H2O: A Foundation Model Bridge for Virtual Spatial Multi-Omics from Histopathology
 
-Spatial omics technologies have revolutionized the molecular profiling of tissues but remain constrained   
-by high costs and limited scalability. While hematoxylin and eosin (H&E) staining is   ubiquitous,   
-it lacks molecular specificity. Here, we present H2O, a generalist AI framework   
-that bridges the modality gap between histopathology and spatial multi-omics,   
+Spatial omics technologies have revolutionized the molecular profiling of tissues but remain constrained by high costs  
+and limited scalability. While hematoxylin and eosin (H&E) staining is  ubiquitous, it lacks molecular specificity.  
+Here, we present H2O, a generalist AI framework that bridges the modality gap between histopathology and spatial multi-omics,  
 enabling the direct inference of spatial transcriptomics (ST) and proteomics (SP) landscapes from   routine H&E images.
 
 <img src='H2O.jpg' width=50%>
