@@ -10,6 +10,7 @@ enabling the direct inference of spatial transcriptomics (ST) and proteomics (SP
 <img src='H2O.jpg' width=50%>
 
 # Dataset
+## Local data path:
 Our training and testing data can be find locally at:  
  &nbsp;&nbsp;&nbsp;&nbsp;/data/home/youngeegu/datasets/hest1k/hest_data/hest1k_whole/e25/hest1k_cnts_test_e25.h5  
 &nbsp;&nbsp;&nbsp;&nbsp;/data/home/youngeegu/datasets/hest1k/hest_data/hest1k_whole/e25/hest1k_cnts_train_e25.h5  
@@ -23,6 +24,7 @@ The training and testing data for downstream task:
 &nbsp;&nbsp;&nbsp;&nbsp;/data/home/youngeegu/datasets/openst/create_patches_3d/openst.h5  
 &nbsp;&nbsp;&nbsp;&nbsp;
 
+## Online data path:
 The raw data can be download from the following link:  
 **HEST-1K: https://huggingface.co/datasets/MahmoodLab/hest  
 **OpenST: https://rajewsky-lab.github.io/openst/latest/examples/datasets/  
