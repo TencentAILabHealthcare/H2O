@@ -52,8 +52,8 @@ Install the necessary dependencies
 $ conda install requirements.txt
 ```
 
-# Running example:
-We prepared a running case to load and predict spatial transcritpomics expression of sample   TENX92:  
+# Running DEMO:
+We prepared a DEMO to load and predict spatial transcritpomics expression of sample TENX92:  
 &nbsp;&nbsp;&nbsp;&nbsp;/data/home/youngeegu/projects/H2O/code/example  
 
 ## Running instruction
