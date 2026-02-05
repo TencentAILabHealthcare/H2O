@@ -84,12 +84,12 @@ $ CUDA_VISIBLE_DEVICES=0,1,2,3  nohup   python -m torch.distributed.run  --nproc
 
 # The results will be saved in following format:  
 ./H2O/code/results/           # Main results folder  
-└── STain_hest1k/             # Project folder  
-    ├── summary_results_.csv               # Summary results of all samples  
-    ├── TENX92_best_model_coords.npy       # The coords for visualization of spatial multi-omics  
-    ├── TENX92_best_model_groundtruth.npy  # GT of spatial transcritpomics expression  
-    ├── TENX92_best_model_prediction.npy   # Prediction of spatial transcritpomics expression  
-    └── TENX92_best_model.csv              # Evaluation Methods for each individual gene  
+&nbsp;&nbsp;&nbsp;&nbsp;└── STain_hest1k/             # Project folder  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── summary_results_.csv               # Summary results of all samples  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── TENX92_best_model_coords.npy       # The coords for visualization of spatial multi-omics  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── TENX92_best_model_groundtruth.npy  # GT of spatial transcritpomics expression  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── TENX92_best_model_prediction.npy   # Prediction of spatial transcritpomics expression  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── TENX92_best_model.csv              # Evaluation Methods for each individual gene  
 
 # Disclaimer
 This tool is for research purpose and not approved for clinical use.
