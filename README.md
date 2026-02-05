@@ -88,8 +88,8 @@ This tool is for research purpose and not approved for clinical use.
 This is not an official Tencent product.
 
 # Coypright
-This tool is developed in Tencent AI Lab.
+This tool is developed in AI for Life Sciences Lab, Tencent.
 
-The copyright holder for this project is AI for Life Sciences Lab.
+The copyright holder for this project is AI for Life Sciences Lab, Tencent.
 
 All rights reserved.
