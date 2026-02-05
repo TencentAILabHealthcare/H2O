@@ -90,6 +90,6 @@ This is not an official Tencent product.
 # Coypright
 This tool is developed in Tencent AI Lab.
 
-The copyright holder for this project is Tencent AI Lab.
+The copyright holder for this project is AI for Life Sciences Lab.
 
 All rights reserved.
