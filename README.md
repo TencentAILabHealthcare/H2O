@@ -63,4 +63,33 @@ run:
 $ cd H2O/code
 $ ./H2O_run.sh
 ```
+### Parameter in H2O_run.sh
+```bash
+$ cd /jizhi/jizhi2/worker/trainer/youngeegu/projects/H2O/code # YOUR_H2O_PATH/code
+# Using DDP with 4 GPUs
+$ CUDA_VISIBLE_DEVICES=0,1,2,3  nohup   python -m torch.distributed.run  --nproc_per_node=4   \ 
+    run.py \
+    --mode test \
+    --debug False \
+    --test_dir  ./example/TENX92.h5 \
+    --model_path ./example/best_epoch.pth \
+    --batch_size 80 \
+    --save_dir ./results/STain_hest1k/ \
+    --CLIP True \
+    --nbrs True \
+    --FiLM True \
+    > inference.log  2>&1 &  
 
+```
+
+# Disclaimer
+This tool is for research purpose and not approved for clinical use.
+
+This is not an official Tencent product.
+
+# Coypright
+This tool is developed in Tencent AI Lab.
+
+The copyright holder for this project is Tencent AI Lab.
+
+All rights reserved.
