@@ -82,7 +82,7 @@ $ CUDA_VISIBLE_DEVICES=0,1,2,3  nohup   python -m torch.distributed.run  --nproc
 
 ```
 
-# The results will be saved in following format:  
+### The results will be saved in following format:  
 ./H2O/code/results/           # Main results folder  
 &nbsp;&nbsp;&nbsp;&nbsp;└── STain_hest1k/&nbsp;&nbsp;&nbsp;&nbsp;# Project folder  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── summary_results_.csv&nbsp;&nbsp;&nbsp;&nbsp;# Summary results of all samples  
