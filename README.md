@@ -7,7 +7,7 @@ and limited scalability. While hematoxylin and eosin (H&E) staining is  ubiquito
 Here, we present H2O, a generalist AI framework that bridges the modality gap between histopathology and spatial multi-omics,  
 enabling the direct inference of spatial transcriptomics (ST) and proteomics (SP) landscapes from   routine H&E images.
 
-<img src='H2O.jpg' width=50%>
+<img src='H2O.jpg' width=30%>
 
 # Dataset
 ## Local data path:
