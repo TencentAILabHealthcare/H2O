@@ -23,7 +23,7 @@ The raw data can be download from the following link:
 
 # Pre-trained model 
 Pre-trained checkpoints can be find here:  
-&nbsp;&nbsp;&nbsp;&nbsp;/data/home/youngeegu/projects/H2O/code/example/best_epoch.pth  
+&nbsp;&nbsp;&nbsp;&nbsp;./H2O/code/example/best_epoch.pth  
 
 ## 1. Environment preparation
 The environment for H2O can be obtained through installing the dependencies with requirement.txt.
@@ -40,7 +40,7 @@ $ conda install requirements.txt
 
 # Running DEMO:
 We prepared a DEMO to load and predict spatial transcritpomics expression of sample TENX92:  
-&nbsp;&nbsp;&nbsp;&nbsp;/data/home/youngeegu/projects/H2O/code/example  
+&nbsp;&nbsp;&nbsp;&nbsp;./H2O/code/example  
 
 ## Running instruction
 run:  
