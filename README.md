@@ -51,7 +51,7 @@ $ ./H2O_run.sh
 ```
 ### Parameter in H2O_run.sh
 ```bash
-$ cd /jizhi/jizhi2/worker/trainer/youngeegu/projects/H2O/code # YOUR_H2O_PATH/code
+$ cd ./H2O/code # YOUR_H2O_PATH/code
 # Using DDP with 4 GPUs
 $ CUDA_VISIBLE_DEVICES=0,1,2,3  nohup   python -m torch.distributed.run  --nproc_per_node=4   \ 
     run.py \
